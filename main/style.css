@@ -32,6 +32,7 @@ ul {
 }
 ul li a {
     display: flex;
+    color: #bcb8b8;
     justify-content: space-between;
     text-decoration: none;
 }
@@ -57,6 +58,10 @@ ul li a {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+}
+.buy-now-btn a{
+    text-decoration: none;
+    color: #FFF;
 }
 .sign-btn a{
     color: #FFF;
