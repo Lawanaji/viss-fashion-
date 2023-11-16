@@ -22,9 +22,7 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
-nav h1{
-    color: #FFF;
-}
+
 ul {
     width: 500px;
     display: flex;
