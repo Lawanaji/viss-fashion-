@@ -32,7 +32,7 @@ ul {
 }
 ul li a {
     display: flex;
-    color: #bcb8b8;
+    color: #343232;
     justify-content: space-between;
     text-decoration: none;
 }
