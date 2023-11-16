@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 80vh;
+    max-width: 2000px;
+    margin: auto;
+    background: rgba(17, 17, 17, 0.20);
+    backdrop-filter: blur(9px);
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(188, 51, 58), rgb(206, 144, 67) );
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.main-content{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.left-side{
+    width: 40%;
+    background-color: aliceblue;
+    border-radius:  20px 0  0 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius:  20px 0  0 20px;
+    -moz-border-radius:  20px 0  0 20px;
+    -ms-border-radius:  20px 0  0 20px;
+    -o-border-radius:  20px 0  0 20px;
+}
+
+.right-side img{
+    height: 80vh;
+    background-color: rgb(253,140,20);
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+.d{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px 20px ;
+}
+
+.buttons-link{
+    padding-top: 25px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-side-buttons{
+    text-align: center;
+}
+#Facebook, #google{
+    width: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background: none;
+}
+#Facebook:hover, #google:hover{
+    background-color:rgb(253,140,20);
+    color: white;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
