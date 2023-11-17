@@ -64,7 +64,9 @@ nav{
    justify-content: space-between;
    padding: 10px 20px 20px ;
 }
-
+#closebtn{
+    cursor: pointer;
+}
 .buttons-link{
     padding-top: 25px;
     position: relative;
